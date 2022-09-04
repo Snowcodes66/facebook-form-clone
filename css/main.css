@@ -1,0 +1,67 @@
+:root{
+    --primary-color--:blue;
+    --secondary-color--:red;
+    --tertiary-color--:green;
+    --tertiary-color:rgb(212, 213, 214);
+    --primary-solid-color--:linear-gradient(to left green,blue);
+}
+
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color:rgb(212, 213, 214);
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+}
+.form-div{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--tertiary-color);
+
+}
+h3{
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: blue;
+}
+label{
+    font-size: 20px;
+}
+input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    
+}
+.submit-el{
+    width: 100%;
+    height: 2rem;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--primary-color--);
+    color: whitesmoke;
+}
+.error{
+    color:red;
+}
+.error-border{
+    border-color: var(--secondary-color--)
+}
+.success-border{
+    border-color: green;
+}

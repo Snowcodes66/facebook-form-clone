@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    position: relative;
+}
+.container{
+    position: relative;
+    background-color: rgb(212, 213, 214);
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.write-up{
+    margin-top: 200px;
+    
+}
+h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(14, 14, 133);
+
+}
+.write-up p{
+    font-size:25px;
+    font-weight: bolder;
+}
+.parent{
+    text-align: center;
+}
+.form-div{
+    width: 100%;
+    height: 210px;
+    margin-top: 150px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 2px 1px 5px black;
+}
+.form-el{
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgb(236, 234, 234);
+}
+.form-el p{
+    margin-bottom: 5px;
+}
+input{
+    padding: 5px;
+    width: 270px;
+    border-radius: 4px;
+    border: 0.2px solid rgb(102, 99, 99);
+}
+input:hover{
+    border: 1px solid rgb(27, 27, 170);
+}
+.log-el{
+    background-color: rgb(38, 38, 189);
+    color: white;
+    border: none;
+    width:270px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.forgot{
+    margin-top: 5px;
+    color: rgb(14, 14, 138);
+    font-size:10px ;
+    font-weight: bold;
+    padding: 5px;
+
+}
+.create-div{
+    
+
+    
+}
+.btn-create{
+    list-style: none;
+    background-color: rgb(36, 148, 36);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 160px;
+    border-radius: 4px;
+    padding-top: 4px;
+    margin:0 auto;
+
+}
+.btn-create a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    
+    
+}
+.create-foot{
+    margin-top: 10px;
+    font-size: 13px;
+}
+.hidden{
+    display: none;
+}
+
+@media (max-width:720px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(19, 19, 150);
+    }
+    .form-div{
+        margin-top: 20px;
+    }
+    .write-up{
+        margin: 0 auto;
+    }
+    h3{
+        color: white;
+        font-size: 50px;
+    }
+    .write-up p{
+        display: none;
+    }
+    .create-foot{
+        margin-top: 10px;
+        font-size: 13px;
+        color: white;
+    }
+}
